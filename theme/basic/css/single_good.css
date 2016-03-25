@@ -1,0 +1,169 @@
+#content{
+
+}
+.goods_wrapper{
+
+}
+.b-share{
+	margin-left: 5px;
+}
+#img_box{
+	outline:1px dashed grey;
+	width:57%;
+	height:350px;
+	margin-left: 10px;
+	margin-top:3px;
+	margin-bottom:10px;
+	float:left;
+}
+	#primary_image {
+		
+		float:left;
+		outline:1px dashed grey;
+		margin-bottom:10px;
+		position:relative;
+	}
+	#primary_image img{
+		
+	#	max-width:270px;
+	#	max-height:270px;
+		margin:10px;
+		
+	}
+	
+	
+	#side_images{
+		outline:1px dashed grey;
+		float:right;
+		width:143px;
+	}
+	#side_images img {
+		
+		float:right;
+		width:70px;
+		height:70px;
+	}
+	.buttons{
+		clear:both;
+		width:100%;
+		height:40px;
+		outline:1px dashed grey;
+	}
+	
+	
+#info_box{
+	
+	width:37%;
+	height:350px;
+	border:1px solid blue;
+	margin-right:10px;
+	margin-top:3px;
+	float:right;
+}
+	#info_box div.title{
+		
+		max-width:240px;
+		position:relative;
+		left:-15px;
+		border:1px solid #990099;
+		border-radius:2px;
+		background-color:#fff;
+		padding:2px 10px;
+		margin:5px 0;
+		box-shadow:			0 1px 4px #000;
+		-webkit-box-shadow:	0 1px 4px #000;
+		-moz-box-shadow:	0 1px 4px #000;
+		
+	}
+	#info_box div.articul
+	{
+	border:1px dashed #ccc;
+	margin:10px 10px 1px 10px;
+	
+	}
+	#info_box div.price{
+		text-indent:5px;
+		max-width:140px;
+		position:static;
+		float:left;
+		border:1px dashed #ccc;
+		margin:10px 10px 1px 10px;
+		
+		padding:5px;
+		text-align: right;
+		color: #990099 !important;
+		font: bold italic 35px Georgia, serif;
+	}
+	#info_box div.currency{
+		position:static;
+		float:left;
+		border:1px dashed #ccc;
+		margin-top:10px;
+		margin-left:-9px;
+		text-align: left;
+		color: #990099 !important;
+		font: bold italic 20px Georgia, serif;
+	}
+	#info_box div.old_price_box{
+		border:1px dashed #ccc;
+		margin-top:1px;
+		margin-left:10px;
+		padding:5px;
+		max-width:120px;
+		position:static;
+		font: italic 12px Georgia, serif;
+		color:grey !important;
+	}
+	#info_box div.old_price_box:before{	content:"Старая цена : ";}
+	#info_box div.rating{
+		
+		margin: 3px 10px;
+	}
+	
+#tech_info_box{
+	clear:both;
+	width:99%;
+	border:1px solid blue;
+}
+	#tech_info_box div#tabs{
+		width:100%;
+	}
+	#tech_info_box div#tabs ul{
+		display:table-row;
+	}
+	#tech_info_box div#tabs ul li{
+		display:table-cell;
+		background:#f3f3f3;
+		height:40px;
+		text-align:center;
+		border-left:5px solid #fff;
+	}
+		#tech_info_box div#tabs ul li.active{
+			background:#ccc;
+		}
+		#tech_info_box div#tabs ul li:first-child{
+			border-left:none;
+		}
+		
+		#tech_info_box div#tabs ul li a{
+			display:table-cell;
+			width:500px;
+			height:40px;
+			line-height:40px;
+			color:#990099;
+			text-decoration:none;
+		}
+		#tech_info_box div#tabs ul li a:hover{
+			background:#990099;
+			color:#fff;
+		}
+	#tech_info_box div.tab_content{
+		border:10px solid #ccc;
+	}
+		#tech_info_box div.tab_content div.tabs_text{
+			padding:10px;
+			display:none;
+		}
+		#tech_info_box div.tab_content div.tabs_text:first-child{
+			display:block;
+		}

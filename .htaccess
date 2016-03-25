@@ -1,0 +1,21 @@
+﻿Options All -ExecCGI -Indexes -Includes +FollowSymLinks
+php_flag magic_quotes_gpc Off
+Options +FollowSymLinks
+AddDefaultCharset utf-8
+AddCharset utf-8 *
+
+<IfModule mod_charset.c>
+CharsetSourceEnc utf-8
+CharsetDefault utf-8
+</IfModule>
+
+DirectoryIndex index.php
+
+deny from 46.165.240.135
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI}		!=/favicon.ico
+RewriteRule .* index.php [L]
+

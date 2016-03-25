@@ -1,0 +1,4 @@
+.widget_gallery			{	}
+.widget_gallery	img		{ 	}
+.widget_gallery	div		{	float:left;}
+.widget_gallery	div img	{	max-height: 150px;margin: 10px;}
