@@ -1,6 +1,8 @@
 var $ = jQuery.noConflict();
 
 $(document).ready(function() {
+		
+	//////////////////////////////////////////////////////////////////////
 	// В dataTransfer помещаются изображения которые перетащили в область div
 	jQuery.event.props.push('dataTransfer');
 	

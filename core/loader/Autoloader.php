@@ -22,7 +22,7 @@ static $loadlist;
 		self::$fullscan		=	false;		##	true ->будет искать все совпадения;				false->прекратит искать после первого совпадения
 		self::$multiload	=	false;		##	true ->будет подключать все из массива путей;	false->подключит только первый елемент массива если их много
 		self::$class_ext	=	'.php';
-		self::$tosearch		=	array(	#передаем для каждого пути свой в соответствующий метод
+		self::$tosearch		=	array(
 									#	'application/controllers/',
 									#	'application/models/',
 									#	'application/libs/',
